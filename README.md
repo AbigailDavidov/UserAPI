@@ -1,9 +1,6 @@
 # UserAPI
 This Python code is a RESTful API with the following CRUD functions:<br>
-create_user<br>
-get_users<br>
-update_user <br>
-delete_user<br>
+create_user, get_users, update_user, delete_user<br>
 I'v decided to use SQLite as my DB, the class db_sqlite is a generic class for interactions with the DB<br>
 The class userActions is a specific class for user API-DB in interactions<br>
 I used unittest for testing and logging to track responses, exceptions etc.<br>
